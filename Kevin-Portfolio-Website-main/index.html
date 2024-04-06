@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <section id="nav-bar">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about-us">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 header-content">
+                    <p>UI/UX Design</p>
+                    <h1>HI, I'm <span>Kevin</span><br>jen From Australia</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/user.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-8 about-content">
+                    <h1>About Us</h1>
+                    <p class="discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eos sed,
+                        molestiae aperiam
+                        tenetur qui, at odio velit veniam voluptatibus tempora doloribus iure nobis fugiat minus saepe
+                        cumque magnam iste dolores sequi magni aliquam optio! Repellat suscipit unde voluptatum optio.
+                    </p>
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">Skills</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">Experience</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">Education</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab" tabindex="0"><small class="firstsmall">UI/UX</small>
+                            <p>Designing Web/App Interfaces</p>
+                            <small>Web Development</small>
+                            <p>Web App Development</p>
+                            <small>App Development</small>
+                            <p>Building Android/IOS Apps</p>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab" tabindex="0"><small>2023 - current</small>
+                            <p>Ui/UX Design Traning at IT Institute</p>
+                            <small>2021 - 2023</small>
+                            <p>Team Led at StatApp LLC</p>
+                            <small>2019 - 2021</small>
+                            <p>UI/UX Design Executive at Coin Digital Ltd.</p>
+                            <small>2017 - 2019</small>
+                            <p>Internship at akert eCommerce</p>
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                            aria-labelledby="pills-contact-tab" tabindex="0"> <small>2018</small>
+                            <p>Ui/UX Design Traning at IT Institute</p>
+                            <small>2017</small>
+                            <p>MSC From PU, Lahore</p>
+                            <small>2015</small>
+                            <p>BSCS From UE, Lahore</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----------Services---------------->
+
+    <section id="services">
+        <div class="container">
+            <div class="row justify-content-between">
+                <h1 class="title">My Services</h1>
+                <div class="col-md-3 service-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In officia voluptas, asperiores aliquid nemo cumque! Eveniet deserunt expedita dolorum!.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div class="col-md-3 service-card">
+                    <i class="fa-solid fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In officia voluptas, asperiores aliquid nemo cumque! Eveniet deserunt expedita dolorum!.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div class="col-md-3 service-card">
+                    <i class="fa-solid fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In officia voluptas, asperiores aliquid nemo cumque! Eveniet deserunt expedita dolorum!.</p>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------Portfolio----------------->
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="row justify-content-between">
+                <h1 class="title">My Portfolio</h1>
+                <div class="col-md-3 work-card">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h2>Social Mobile App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde at veniam corporis excepturi distinctio, ad esse aperiam odit commodi suscipit.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 work-card">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h2>Music App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde at veniam corporis excepturi distinctio, ad esse aperiam odit commodi suscipit.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 work-card">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h2>Eccomerce App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde at veniam corporis excepturi distinctio, ad esse aperiam odit commodi suscipit.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <button class="work-btn">See More</button>
+        </div>
+    </section>
+
+    <!-------------------Contact------------------->
+
+    <section id="contact">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-5 contact">
+                    <h1 class="title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i>03878648838</p>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-telegram"></i>
+                    </div>
+                    <button class="work-btn CV-btn">Download CV</button>
+                </div>
+                <div class="col-md-7">
+                    <form action="">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea name="" id="" >Your Message</textarea>
+                        <button type="submit" class="work-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>&#169; copyright free Made By Hamaad Afzal</p>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
